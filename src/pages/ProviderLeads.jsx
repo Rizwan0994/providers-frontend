@@ -78,7 +78,7 @@ const ProviderLeads = () => {
                 <p className="text-center text-lg italic">"A true hero saves lives, one step at a time!"</p>
             </div> */}
 
-            <h1 className="text-2xl md:text-3xl font-bold mb-4">Medical Provider Leads</h1>
+            {/* <h1 className="text-2xl md:text-3xl font-bold mb-4">Medical Provider Leads</h1> */}
 
             <FilterForm onApply={handleApplyFilters} isLoading={isLoading} />
 
